@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kurious Movement — Move. Connect. Belong.</title>
+  <meta name="description" content="Kurious Movement — Bouldering, Parkour, Ninja & Gym in Albury-Wodonga. First class free. Join the community." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="brand">Kurious Movement</a>
+      <nav class="nav" aria-label="Main">
+        <a href="#book" id="nav-book">Book a Class</a>
+        <a href="#memberships">Memberships</a>
+        <a href="#events">Events</a>
+        <a href="#about">About</a>
+        <button class="btn btn-ghost" id="open-book-btn">Book</button>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" role="banner" aria-label="Hero">
+    <div class="hero-overlay">
+      <div class="container hero-content">
+        <h1 class="hero-title">Move. Connect. Belong.</h1>
+        <p class="hero-sub">Bouldering • Parkour • Ninja • Gym — All under one roof</p>
+        <div class="hero-ctas">
+          <a href="#book" class="btn btn-primary" id="hero-book">Book a Class</a>
+          <a href="#memberships" class="btn btn-outline">Join Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="about" class="about container">
+      <div class="about-left">
+        <h2>About Kurious</h2>
+        <p>
+          Kurious Movement is Albury–Wodonga’s hub for connection, challenge and community.
+          From a purpose-built boulder wall to a full parkour rig and ninja obstacles, we make
+          movement fun, social and accessible to all levels.
+        </p>
+        <p class="muted">
+          <a href="why-kurious.html">Learn more about why Kurious exists →</a>
+        </p>
+
+        <div class="features-grid">
+          <div class="feature">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3"/></svg>
+            <strong>All-Inclusive Memberships</strong>
+            <div class="small">One price, access to everything.</div>
+          </div>
+          <div class="feature">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2"/></svg>
+            <strong>First Class Free</strong>
+            <div class="small">Intro pass for first-time attendees.</div>
+          </div>
+          <div class="feature">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 L20 7 L12 22 L4 7 Z"/></svg>
+            <strong>For All Ages</strong>
+            <div class="small">From kids classes to adult nights.</div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="about-right photo-grid" aria-hidden="true">
+        <!-- Replace these with real photos -->
+        <img src="images/photo1.jpg" alt="Bouldering action" />
+        <img src="images/photo2.jpg" alt="Parkour vault" />
+        <img src="images/photo3.jpg" alt="Community area" />
+        <img src="images/photo4.jpg" alt="Ninja rig" />
+      </aside>
+    </section>
+
+    <!-- Quick Links -->
+    <section class="quick-links container" aria-label="Quick links">
+      <h3 class="section-title">Quick Links</h3>
+      <div class="links-grid">
+        <a class="big-card" href="#book" id="quick-book" role="button">
+          <div class="card-icon">📅</div>
+          <div class="card-title">Book a Class</div>
+        </a>
+        <a class="big-card" href="#memberships">
+          <div class="card-icon">🧾</div>
+          <div class="card-title">View Memberships</div>
+        </a>
+        <a class="big-card" href="#events">
+          <div class="card-icon">🏆</div>
+          <div class="card-title">Events & Competitions</div>
+        </a>
+        <a class="big-card" href="#about">
+          <div class="card-icon">ℹ️</div>
+          <div class="card-title">About Us</div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Booking anchor -->
+    <section id="book" class="container booking-intro">
+      <h3>Book a Class</h3>
+      <p>Members can log in and book their classes. If you're new — sign up below and your first class is free.</p>
+      <button class="btn btn-primary" id="open-booking">Sign Up / Book Now</button>
+    </section>
+
+    <!-- placeholder sections -->
+    <section id="memberships" class="container placeholder">
+      <h3>Memberships</h3>
+      <p>Membership pricing & packages will go here (e.g. $25/week standard, $17 kids).</p>
+    </section>
+
+    <section id="events" class="container placeholder">
+      <h3>Events & Competitions</h3>
+      <p>Upcoming events, competitions and community nights.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Kurious Movement</strong>
+        <div>Albury–Wodonga</div>
+        <div><a href="tel:0421555038">0421 555 038</a> • <a href="mailto:Abury@Kuriousmovement.com">Abury@Kuriousmovement.com</a></div>
+      </div>
+      <div>
+        <div>Mon–Fri: 5am–10pm</div>
+        <div>Sat: 8am–6pm • Sun: 10am–5pm</div>
+      </div>
+      <div>
+        <a href="#" id="open-book-footer" class="btn btn-primary small">Book</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Booking / Signup Modal -->
+  <div id="modal" class="modal" role="dialog" aria-hidden="true" aria-labelledby="modalTitle">
+    <div class="modal-panel" role="document">
+      <button class="modal-close" id="modal-close" aria-label="Close modal">✕</button>
+      <h4 id="modalTitle">Sign up & Book — First class free</h4>
+
+      <form id="signupForm" class="form">
+        <fieldset>
+          <label for="fullName">Your full name</label>
+          <input id="fullName" name="fullName" type="text" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+
+          <label for="phone">Phone</label>
+          <input id="phone" name="phone" type="tel" required />
+
+          <label>Booking for</label>
+          <div class="radio-row">
+            <label><input type="radio" name="forWho" value="self" checked /> Myself</label>
+            <label><input type="radio" name="forWho" value="child" /> Child</label>
+          </div>
+
+          <div id="childFields" class="child-fields" hidden>
+            <label for="childName">Child's full name</label>
+            <input id="childName" name="childName" type="text" />
+            <label for="childAge">Child's age</label>
+            <input id="childAge" name="childAge" type="number" min="1" />
+          </div>
+
+          <label for="medical">Any pre-existing injuries or medical conditions? (brief)</label>
+          <textarea id="medical" name="medical" rows="3" placeholder="E.g. knee injury, asthma..."></textarea>
+
+          <label for="classChoice">Class you'd like to book (date/time will be confirmed by staff)</label>
+          <input id="classChoice" name="classChoice" placeholder="e.g. Parkour Kids - Sat 10am" required />
+
+          <label class="checkbox">
+            <input id="waiver" name="waiver" type="checkbox" required />
+            I confirm I have read and agree to Kurious Movement's <a href="waiver.html" target="_blank">waiver & T&Cs</a>. (Guardian must accept for minors.)
+          </label>
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Submit & Book</button>
+            <button type="button" class="btn btn-ghost" id="saveDraft">Save for later</button>
+          </div>
+          <p class="muted small">This demo stores form data locally only. To process payments and memberships you’ll integrate Stripe/Square (see instructions below).</p>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+
+  <div id="modalBackdrop" class="modal-backdrop" hidden></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
